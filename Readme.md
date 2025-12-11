@@ -12,7 +12,30 @@ Convert all the mp3 files to json by ruunning mp3_to_json
 Use the file preprocess_json to convert the json files to a dataframe with Embeddings and save it as a joblib pickle
 
 ## Step 5 - Prompt generation and feeding to LLM
-
 Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM
+
+            ┌─────────────────────────┐
+            │      User Query         │
+            └─────────────┬───────────┘
+                          │
+                          ▼
+            ┌─────────────────────────┐
+            │   Query Embedding       │  (BGE-M3 via Ollama)
+            └─────────────┬───────────┘
+                          │
+                          ▼
+            ┌─────────────────────────┐
+            │ Vector Similarity Search│ (Cosine Similarity)
+            └─────────────┬───────────┘
+                          │ Top-k Docs
+                          ▼
+            ┌─────────────────────────┐
+            │        LLM (Ollama)     │ (Llama3 / any local model)
+            └─────────────┬───────────┘
+                          │
+                          ▼
+            ┌─────────────────────────┐
+            │      Final Answer       │
+            └─────────────────────────┘
 
 
