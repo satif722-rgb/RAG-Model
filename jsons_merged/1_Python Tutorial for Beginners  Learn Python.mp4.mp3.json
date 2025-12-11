@@ -1,0 +1,1545 @@
+{
+  "chunks": [
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 0.0,
+      "end": 65.0,
+      "text": " intro  Hi everyone, I am your Shraddha Didi and today we have brought a brand new Python course for you  after doing this course you will be learning about the most important programming concepts of Python from basic installation  now if you are a student who has studied something like C++, Java, JavaScript and now you want to learn Python  or if you are a student who is going to do programming from the beginning then this video is made for you  after watching this video if you want you can prepare for college placements, do competitive coding, learn about frameworks like Django in web development  or learn things like artificial intelligence, machine learning, data science  to do this video we will need only two things, first is a laptop and second is a lot of excitement  so let's start our brand new Python course  Python is a very beautiful language which is used in a lot of big companies"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 65.0,
+      "end": 123.0,
+      "text": " big companies like Google, YouTube, Instagram, Netflix, Uber use Python to make their software  now we will learn about installation, how to install Python in your laptop, in your machine  and how to install the code which we are doing on the software  so here we have made the installation process for Windows users and Mac users  so you can go to the time stamp given below and see which installation you need to do  first of all let's start our Windows installation  so to install Python in Windows first of all we have to go to a website named python.org  we have given the link of the website in the notes below and you can see it on the screen  so by going to downloads we will download Python 3.1 0.0  after downloading we will open this file in our folder"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 123.0,
+      "end": 164.0,
+      "text": " then we have to click on the exe file and install it  now the software we will use to write Python in Windows is called PyScripter  PyScripter is an open source free software which we can go to the site  after going to the website we have downloaded it once  after that we will have a window of different options  so inside the window we have to click on next next  now after installing we have to click on execute  and after that our installation will be complete  we will get options like what language we want to select  which folder we want to make default where our Python file will be saved"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 164.0,
+      "end": 205.0,
+      "text": " we will click on next next and finally we will install  now inside the setup window we will click on next  and for us the window of our PyScripter will open  now we will clear this module and now we will start writing our entire code from the beginning  to output anything in Python we have to write print  and after that we write the entire statement  now the lines highlighted above are comments which are not part of the code  and below the print we have written is a function  function code is that part which gives us an operation or a task  then we have used parenthesis"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 205.0,
+      "end": 238.0,
+      "text": " functions are always written with parenthesis in Python  and inside that we have written what we have to print  so we have written hello world  now we have written hello world with double quotes  so whatever text is there in Python we write it in quotes  we could have written hello world in single quotes  but since I am from Java C++ background  so my habit is that I write strings in double quotes  and characters like a,b,c,d I write them in single quotes  that's why I prefer to write strings in double quotes"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 238.0,
+      "end": 280.0,
+      "text": " now after clicking the green run button we will run our code  and below we have output hello world  and above we can see our Python version which is 3.10.0  now instead of hello world if we want to print hello coders then we can do that too  we just have to write print hello coders  we can run this too  and if we want to print something else then we can print a whole sentence  that I know how to count in which we can print 1,2,3,4,5,6 numbers  and that will come on our output screen  now if we want we can save this whole Python code in a file"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 280.0,
+      "end": 317.0,
+      "text": " so to save it in a file we will go to file and click save as  and then we will give any name of our choice  now by default we have to save Python files code with .py  that's why we will name our file as firstprogram.py  and we have saved it and we can see this new name in our IDE  now in the next tutorial I have used Pycharm  because in my system virtual machine windows can't run for a long time  that's why in the next course whatever code we have written  we have to write all those codes in the same way in PyScripter  and just click on the run button"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 317.0,
+      "end": 347.0,
+      "text": " and we have to wait for a while  there will be no error or any problem for us  the editor we are using in macOS is named Pycharm  to install Pycharm we have to go to JetBrains site  and install Pycharm there  now after installing when we will open it  we have to drag it directly and put it in our applications folder  and while opening we have to keep the settings in default  that's why we will keep on oking all the things  and finally Pycharm will open for us"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 350.0,
+      "end": 379.0,
+      "text": " so we have installed Pycharm  now we will start by opening our software  so here we will see a window  now we can create different projects in this  these are the projects in which we can put many python files  so first of all we will make a new project for ourselves  here we will write the name of the project  so we will give the name of the project  Apna College  and this is the path before the name of the project"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 379.0,
+      "end": 410.0,
+      "text": " this is the path where all the files of our project  will be saved in our computer  so all the python files we will write in our project  will be saved here in this location  after that we can choose our environment from here  environment is a little advanced topic  so if we are starting a new coding journey  so for now we will ignore this  here we have taken our base interpreter as python  now already in the computer"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 410.0,
+      "end": 434.0,
+      "text": " there were other versions of python  but we have chosen the latest version  it is possible that when you open your Pycharm  so all these options are not coming in it  you are able to create a new project directly in it  you don't have to make changes in the settings  so there is nothing to worry about  here we will create  if we already want a python file  which is a sample file"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 434.0,
+      "end": 458.0,
+      "text": " then we can tick this option  but we will make our file by ourselves  so let's start by un-ticking it  and here our Pycharm is open  so here our python files  where will they be stored?  they will be stored in this folder  this Apna College, whatever name we gave to the project  a folder has been created in our location  and in this folder we can see different files"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 458.0,
+      "end": 487.0,
+      "text": " now in this folder we have to create a python file  so what we will do is right click  go to new and go to python file  we can name this python file anything  suppose we want to name it first program  so after naming it first program  here a python file has been created  and here this file has been opened  so here we can write our code  now you will know that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 487.0,
+      "end": 511.0,
+      "text": " the name of the file is firstprogram.py  so all the python files  their extension is .py  like if we have used Microsoft word  then in that or in notepad  or in windows we can save the file  with .txt that it is a text file  that's why here python is saved with .py  like c++ file is saved with .cpp  or java with .java"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 511.0,
+      "end": 535.0,
+      "text": " so there is some extension of that  here we have some files of our virtual environment  so from here we can see  that if we have a lot of python files  then which file we have to go in  and which file we don't have to go in  but we are working on the same file  so here we will click on this minus button  and hide it  so now we will focus on our python file"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 535.0,
+      "end": 558.0,
+      "text": " all our python programs  we will be writing here  we will make it little big text wise  now we will be writing our first python program  now this is the program  which is written in other languages  which is written in other languages  which is called hello world  so usually when you learn a new language  you print hello world"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 558.0,
+      "end": 578.0,
+      "text": " and learn on a new screen  now if you are coding in python  then you are doing something in the program  but the output of that program  how will we see that  we will learn that now  for output we have to write print  after print we will put parenthesis  so we call these brackets as parenthesis  inside these we can print anything"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 578.0,
+      "end": 598.0,
+      "text": " whatever we have to print from the program  now here we are going to print  hello world  and here the double quotes  which we have put  they represent the string  what is string?  whenever any text, character  like abcd, afgh, at the rate, hash  1,2,3,4"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 598.0,
+      "end": 618.0,
+      "text": " we write these in double quotes  so it becomes text  text means which we can't change  it will be same  now if we have to print string  then this statement is enough  a small key point  java is a case sensitive language  means you can't make this small p  big p"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 618.0,
+      "end": 638.0,
+      "text": " otherwise a red line will come  and then error will come  because big p doesn't exist  so you can print things  now the parenthesis we have used  shows what is print?  it is a function in python  now what are functions?  how we can make them?  we will learn that later"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 638.0,
+      "end": 658.0,
+      "text": " for now let's learn that print is a function  in java, whatever we have to print  on screen we can write it inside  and now we will run this code  to run there is a run option  inside run  you go and click run  on first program  and here in output screen  we have print hello world"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 658.0,
+      "end": 678.0,
+      "text": " now there are many keyboard shortcuts  like when you go to run  so here this ctrl shift r  is the keyboard shortcut  so those who are using mac can use this  for windows there will be a different shortcut  so you can use it accordingly  so like this you will remember shortcuts  so your code will be completed  faster"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 678.0,
+      "end": 698.0,
+      "text": " now we will learn about variables in python  now if we have to store  any data inside python  so how we will store it?  we know that if there is any data inside python  so it will eventually go to  computer's memory and store  so the computer's memory  where data is stored  we will give it a name"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 698.0,
+      "end": 718.0,
+      "text": " so next time we will know  where data was stored  what is its name  so we call this name variable  in python  variables define memory's location  where data is stored  so like suppose  we have to store a name  so for name we have written variable"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 718.0,
+      "end": 738.0,
+      "text": " we can give name of variable  name of variable is name  and we want to store a string inside variable  so  we will store name  with this suppose you want to make another variable  you have made  variable age  you don't want to store string inside age  you want to store number"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 738.0,
+      "end": 758.0,
+      "text": " so here we have stored number  now what we can do  we can print this name  now to print  if we write like this  so what will be printed for us  let's see  if we print name directly inside codes  so for us name will be printed directly  that name will not be variable"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 758.0,
+      "end": 778.0,
+      "text": " whatever goes inside strings  it doesn't take its value  it prints it as it is  so here we will be writing  name  and if we run it  now what is printed  we have stored value inside name  in the same way we can print  age with name"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 778.0,
+      "end": 798.0,
+      "text": " and here age will be printed  now these variables  we have made  if we give value inside it  then we can change that value  means by changing name  if we want to do something else  by changing age  then those values will change  and now the name and age"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 798.0,
+      "end": 818.0,
+      "text": " will be different  so according to this  if we made variable  then values inside it can change  now we will be talking about 4 major types of variables  in python  first we have learned that string is there  one we have learned that number is there  now this number  we have seen here is an integer number"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 818.0,
+      "end": 838.0,
+      "text": " suppose if we  24  we have to make 24.0  so this type of number  we call floating number in python  and this was our integer  now there are 4th type of variables in python  we call them boolean  boolean defines  if something is true or false"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 838.0,
+      "end": 858.0,
+      "text": " so in boolean two type of values can be stored  either it can be true  or false  so here according to our age  suppose we have written  adult  so in this adult we can write true  now this red line  came because java is case sensitive  and in true"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 858.0,
+      "end": 878.0,
+      "text": " actually T is capital  so if we don't take care of case  if we keep capital of things  we will make them small or small one  will be capital then error can come  here we can write  false also  if our age was  less than 18  similarly we can define boolean variables"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 878.0,
+      "end": 898.0,
+      "text": " in python  special thing of python is  you don't have to tell before defining variables  that which type this variable is going to be  you can store any value in any variable  without defining any type  now to define variable  you can use 2-3 strings  in between you can use underscore  so like this"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 898.0,
+      "end": 918.0,
+      "text": " there are many names to define variables  what are the rules you can get in notes  now before moving ahead  there is one exercise  in exercise first thing  we have to define a person  whose first name  and last name  so we have to define two variables  whose first name is going to be tony"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 918.0,
+      "end": 938.0,
+      "text": " last name is going to be stark  then we have to define age  in which we are storing 51 years of age  after that  is a genius  is going to be a variable  so tony is a genius  now how you are defining with the help of boolean  we have to write a code of 3-4 lines  of that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 938.0,
+      "end": 958.0,
+      "text": " the solution of this exercise  is given in the notes  so first you have to try the exercise  after that you have to see the solution  next thing we are learning in python  is to take input from user  till now what we have learnt  if we have to print something in python  then how we can print it on screen  now we will learn"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 958.0,
+      "end": 978.0,
+      "text": " if we have to take something in input  then how we can take it from user  so for that we are using a function  called input  what does input do  any value takes input from user  so here we have to take input name  what is your name  here we have written question mark  now if we run this code"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 978.0,
+      "end": 998.0,
+      "text": " so here  now we can input our name  now we have input this name  but this program  has not stored it anywhere  so let's make a variable for this  we will store it in name  run it again  so here  now we will print this name"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 998.0,
+      "end": 1018.0,
+      "text": " in next line  so what happened here  we have input name  program has stored it in name variable  and then we have printed the name  so here the name  which we have entered which was tony  that has been printed on our screen  so in this way we take input from user  and store it in variable"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1018.0,
+      "end": 1038.0,
+      "text": " and then again  to show it to user we print it  to print it more nicely  we can write hello here  and we can put plus sign in between  so what will happen with this plus sign  with hello our name string  will be joined  and both will be printed together  so this whole process"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1038.0,
+      "end": 1058.0,
+      "text": " is called concatenation in programming  so let's run it  run it  so here we have to enter our name  which is tony  so hello tony has been printed for us  now here is one more exercise  that you have to ask user  what is your superhero name  or you can ask tony what is your superhero name"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1058.0,
+      "end": 1078.0,
+      "text": " so he will enter  his superhero name or his superhero version  and you have to  store that name in a variable  and print it on screen  so this is a small exercise, you will get solution for this in notes  next topic  that we are talking about is  type conversion  we need type conversion because"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1078.0,
+      "end": 1098.0,
+      "text": " whenever we input anything in python  so all our inputs  come in a string format  so if we input number  if we input floating value  if we input boolean  all these things  will come in string format  like  suppose we input"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1098.0,
+      "end": 1118.0,
+      "text": " someone's age  we will store it in old age variable  and here we will write our input function  enter your  old age  now we have to convert this old age  in new age  to convert in new age  what we will do in old age  we will add 2 and finally"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1118.0,
+      "end": 1138.0,
+      "text": " we will print our  new age  so what we did, we made an old age variable  we took input in it  and put our old age  in old age we added 2 years  and the sum of both  we put it in new age  so sum is taken here  in form of plus"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1138.0,
+      "end": 1158.0,
+      "text": " so we will add 2 with our old age  and store it in new age  so what happened with equal to  right value went to left  and then we printed new age  now whenever we  will execute this thing  suppose our old age was 20  so here we got a type error  what type error is saying"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1158.0,
+      "end": 1178.0,
+      "text": " can only concatenate string  not int to string  means we can concatenate string with string  concatenate means  it is trying to connect string with string  but it is getting a number  here  it took 2 as a number  but it took old age as a string  now we don't have to send old age"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1178.0,
+      "end": 1198.0,
+      "text": " as a string, old age  we passed 20 but it took 20  as a string  so it is visualizing 20  in this way  but we want it to be visualized in form of number  so for that we will do type conversion  for type conversion  we use a function named int  int represents"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1198.0,
+      "end": 1218.0,
+      "text": " integers so whole numbers  complete numbers  minus 1 all these numbers  which don't have decimal point  all those are integers  we will pass old age in int  so in this way its output  will convert in old age  in integer  so here if we write int"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1218.0,
+      "end": 1238.0,
+      "text": " in that we passed old age  and then run the code  so now if we pass our age  then we will get correct output  now there will be no error  now it is not like that only in integer  we have to convert  if we want then we can convert  valid values in float  or we can convert in string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1238.0,
+      "end": 1258.0,
+      "text": " using str function  we can convert any value in boolean  so we will talk about 4 types of  conversions  in which valid variables  we can convert in float  float means where there is a decimal  like if  18 we have a number  in which value is stored"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1258.0,
+      "end": 1278.0,
+      "text": " now what we did  we converted this number in float  so let's see what will be  its output  its output is 18.0  so the number  which was integer and there was no decimal  we converted that also in decimal  so in this way type conversions  are there in python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1278.0,
+      "end": 1298.0,
+      "text": " now what we will do  we will write a small program  so that we can get an idea  how to write programs in python  so we will write a code  because of which we will calculate  sum of two numbers  so first  we will make a variable  and store our first number"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1298.0,
+      "end": 1320.0,
+      "text": " so here we will do input  enter first number  in the same way we will make a variable  second, in second we will write  input enter  second number  and now  in sum what we will do  first plus second  we will store"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1320.0,
+      "end": 1340.0,
+      "text": " now its output will not be  what we are thinking  what we need to change  first we will enter our first number  suppose we enter  2 and then enter second number  3  so what we printed  nothing yet because we didn't print sum  so let's print sum"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1340.0,
+      "end": 1360.0,
+      "text": " run again  here it printed 23  so why 23 of 2 and 3  printed because  our first and second  both are string  we didn't convert type  so here  concatenation happened  first is connected to second"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1360.0,
+      "end": 1380.0,
+      "text": " so 3 is connected to 2  to remove concatenation  we have to convert it in int  so first we will convert in int  second we will convert in int  then we will calculate sum  run again  so first we will pass 2  second we will pass 3  output is 5"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1380.0,
+      "end": 1400.0,
+      "text": " so how to write sum of both  we can write many programs  in python  now suppose  before print we have to print  the sum is  and here we will write plus  so in that case  it will not print directly  in that case error will come"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1400.0,
+      "end": 1420.0,
+      "text": " that we can't concatenate string with int  so to print this sum  we have to  convert in string form  then our sum  will be printed correctly  now in python  we will talk about a special topic  which is strings  before using string we will define our string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1420.0,
+      "end": 1440.0,
+      "text": " with name  we will store tony stark  now as soon as  you type name.  many things will appear on screen  like index  count, upper, replace, find  so all these  are called methods  we can do many changes in string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1440.0,
+      "end": 1460.0,
+      "text": " so we will  read about these changes  first change we can do in string  is that  if we want to convert all characters  in upper case  so for that method exists  what we have to do  after our string we have to write  dot upper and then parenthesis"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1460.0,
+      "end": 1480.0,
+      "text": " now we have to print this  after printing  so in output all characters  will be capitalized  now this dot upper function  it doesn't convert our string  directly like if we  print name after that it will be normal  means it returned  a new string with capital letters"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1480.0,
+      "end": 1500.0,
+      "text": " it didn't touch original string  similarly if we want to  convert all in lower then  we will write lower  so all characters will be converted in lower case  next operation which we  will talk about is find operation  now in a string  if we want to search  any character or sub string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1500.0,
+      "end": 1520.0,
+      "text": " so for that we can  simply write dot find  so suppose in Tony Stark  we have to search for capital S  so here we will write  print name  dot find  we will pass our capital S in it  now to define strings  in python we can use double quotes"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1520.0,
+      "end": 1540.0,
+      "text": " or single quotes  but since I am from C++ and Java background  so when I have to define characters  which means single A  single B, single C, single  at the rate so I use  single quotes and when  we have to define strings like  word or sentence or a whole paragraph  so I use double quotes"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1540.0,
+      "end": 1560.0,
+      "text": " you can use any quote as per your wish  so here  we are going to find this capital S  in our name  so this find will find  any particular character or sub string  in the string  if it finds it  so wherever it finds on index  it will return the index"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1560.0,
+      "end": 1580.0,
+      "text": " and if it doesn't find it, it will return minus 1  what is index?  in python, index is our position  like if we talk about this name string  so in this, on zeroth position  comes T, on first position  comes O, on second position  comes N  on third position comes Y  on fourth position comes space"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1580.0,
+      "end": 1600.0,
+      "text": " so whatever are the indexes  in python, they start from zero  means they don't start from first position  they start from zeroth position  same is in C++  same is in Java  but there are many languages  which start from index 1  but we are talking about zero indexing  so here"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1600.0,
+      "end": 1620.0,
+      "text": " if we run this code  so where did it find S? on index 5  0, 1, 2, 3, 4, 5  on index 5  comes our capital S  suppose we have to search small s  so in that case  here returns minus 1  because small s is not in our string  apart from that we can find any sub string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1620.0,
+      "end": 1640.0,
+      "text": " like suppose we want to find star  that also starts  from our index 5  but if we make s small  of star  so in that case  minus 1 will be printed  so in this way we have to be careful  which case character  or string we are searching"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1640.0,
+      "end": 1660.0,
+      "text": " now next operation which we will talk about  is that in string  we can pick any part and  replace it with any other part  like here  instead of Tony Stark  suppose  in our string we have to remove  all Tony Stark and replace it with Iron Man  so how we do that?"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1660.0,
+      "end": 1680.0,
+      "text": " we print name.replace  who do we want to replace?  all Tony Stark  who do we want to replace?  with Iron Man  so run it  now what is printed for us?  Iron Man  but it doesn't change original string  so if we print name again"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1680.0,
+      "end": 1700.0,
+      "text": " then our original name will be printed  which is Tony Stark  now suppose we want to print Tony Iron Man  instead of Stark  so from here  we will remove Tony  so we will be replacing Stark with this term  so what is printed for us? Tony Iron Man  so in this way  we can replace existing substring"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1700.0,
+      "end": 1720.0,
+      "text": " or even whole string  we can also replace characters  if we replace T with M  then we have Moni Stark  so we can also replace characters  now what does find function do?  find function will bring  index for us  so in any position  it will get a character or substring"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1720.0,
+      "end": 1740.0,
+      "text": " but we just have to check  whether that substring or character exists or not  we don't have to check its index  so for that  we use an in keyword  what are keywords?  like in any language  there is a dictionary which defines  that these words are part of this language  similarly"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1740.0,
+      "end": 1760.0,
+      "text": " keywords of programming languages  are part of dictionary of programming languages  like in English language  we know that apple is a word  orange is a word  when we use input  so input is a keyword  along with that we use print  so print is also a keyword  then only it is highlighted in our editor"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1760.0,
+      "end": 1780.0,
+      "text": " with purple  rest of the variables which we define  are not highlighted  they are simply visible in white  so all the keywords are highlighted  if we are writing any text  that is highlighted in green  now if we want to find any character or substring  in our string  so we use in function"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1780.0,
+      "end": 1800.0,
+      "text": " we want to find capital T  in name  so for us print is true  does our capital T  exists in our name string  so in that case  for us print is true  but if we want to find  m  so for that print will be false"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1800.0,
+      "end": 1820.0,
+      "text": " that m does not exist  if we want to find  substring  that does star exist in name  so for that it will be true  now if we want to find iron man  so for that it will be false  so in this way  we can search by getting true false  in any string"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1820.0,
+      "end": 1840.0,
+      "text": " now next we are going to talk about  arithmetic operators  what are arithmetic operators  like in math we have studied many operations  whenever we have studied in 1st, 2nd, 3rd  class of math  we had to do plus  so we used plus sign  minus sign  multiply"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1840.0,
+      "end": 1860.0,
+      "text": " so for all these operations  the operator used  that is the signs used  we call them operators in python  now here we will see  different operators  they are almost similar to what we have used in math  first operator is plus  so we will print  5 plus 2"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1860.0,
+      "end": 1880.0,
+      "text": " so we will see sum from plus operator  after that if we replace  plus with minus  so this is used for subtraction  so it is 5 minus 2  print is 3  if we want to multiply  so we will put asterisk  so on our keyboard  this asterisk sign is multiplication"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1880.0,
+      "end": 1900.0,
+      "text": " in programming  so 5 into 2 is printed  if we want to print  so we will put slash  slash means divide in arithmetic operators  so we have printed 5 divided by 2  is equal to 2.5  now when we multiply  any two numbers  so either our result can be in decimal"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1900.0,
+      "end": 1920.0,
+      "text": " or in integer  like here if we were dividing 10 by 2  so answer would have been 5  but if we are dividing 5 by 2  so answer is 2.5  suppose there are some cases  where we don't want decimal numbers  so to remove decimal numbers  to take only integer value  we will make this slash double"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1920.0,
+      "end": 1940.0,
+      "text": " so when we put two slashes  or two divide signs  so our decimal part  will be removed from result  so we run it  so 2.5 is not printed  only 2 is printed  now along with this there is another operator  in programming, it is in java, c++  and python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1940.0,
+      "end": 1960.0,
+      "text": " which is not usual in maths  it is our remainder operator  it is also called modulo  so this sign of percentage  represents our remainder operator  what does remainder operator do?  when we divide two numbers  so whatever remainder is left  it returns that  so we print this"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1960.0,
+      "end": 1980.0,
+      "text": " 5 divided by 2 remainder is 1  along with this  there is another operator which is power operator  so to make one number  to make power of one number  we put two asterisks  or two stars  so here we put star star  it means  5 to the power 2 which is 25"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 1980.0,
+      "end": 2000.0,
+      "text": " when we run it  it will be 25 printed  now in python  there are some shortcuts  to calculate things which we should know  so first of all  let's assume we have a variable  in which we wrote 5 in the beginning  now what we did  we added 2 in 5"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2000.0,
+      "end": 2020.0,
+      "text": " and we assigned  i to this whole  so whenever there is such expression in python  we can minimize it  and write  we can write this whole expression  plus equal to 2  so this first line  and this second line  both have same meaning in python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2020.0,
+      "end": 2040.0,
+      "text": " similarly if we want to minus  then we can write minus equal to 2  and if we want to multiply  then multiply equal to 2  so in this way  we can perform many operations  by minimizing them  now in python let's talk about  operator precedence  operator precedence means"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2040.0,
+      "end": 2060.0,
+      "text": " if we have given some expression  like  2 plus 3 into 5  or this expression can be  2 plus 3 means 5 into 5  25  or it can be 3 into 5  15 plus 2  so 17  now which one will be right"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2060.0,
+      "end": 2080.0,
+      "text": " it depends on which operator  in python takes precedence  means  which operator will perform  first operation  so there is a rule of board math  similarly there is a rule in python  now the operator precedence  has a whole chart  which operator will take precedence"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2080.0,
+      "end": 2100.0,
+      "text": " you can get that in link  here we will discuss  in a little while  we will discuss that  multiplier operator has higher precedence  as compared to plus operator  so here result is 17  so first 3 into 5 will be multiplied  after that 2 will be added  if we want to add 2 first"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2100.0,
+      "end": 2120.0,
+      "text": " then we can put brackets  if we put brackets  then result will be 25  similarly here  if we multiply  then multiply will be before plus  so after multiplying we get  2.6  so in this way we have precedence of different operators  now let's discuss"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2120.0,
+      "end": 2140.0,
+      "text": " another small thing in python  that is comments  code part which doesn't do any calculation  doesn't perform any operation  means there are things  which we have to write on our screen but we don't want to make them part of code  suppose we want to write them  in normal english  so we call them comments  how do we write comments"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2140.0,
+      "end": 2160.0,
+      "text": " suppose we write hash  so all comments start with hash  in python  after that we can write here is a comment  so this is  a normal english line  but here we will not get error  why? because here we have  made it a comment  if we would have written this line below"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2160.0,
+      "end": 2180.0,
+      "text": " then we would have got an error  so how can we write normal english in python  we can write comments  now what is the work of comments  whenever we go to organizations  or companies or start ups  or whenever we are writing a good code  so your code  at some point of time someone else  must be reading it"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2180.0,
+      "end": 2200.0,
+      "text": " now that person should understand  which part of your long code performs  for that you write a comment  on every part  like we made a small program  of two numbers  so in that first comment  would have been  taking input  so first is equal to input"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2200.0,
+      "end": 2220.0,
+      "text": " we would have done something  after that our second comment  would have been calculate sum  so in this way to define our program  we can use comments  now we are going to read in python  about comparison operators  comparison means comparing two things  which is big  and which is small"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2220.0,
+      "end": 2240.0,
+      "text": " now to compare in python  there are some operators  these operators return boolean value  means whatever operator you have applied  its true or false  will depend on  what condition you have applied  so first of all we have to print  3 is greater than 2  so is 3 greater than 2"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2240.0,
+      "end": 2260.0,
+      "text": " yes it is  so its result will be true  but here we can do  3 is less than 2  so this is a comparison operator  in that case we will get return false  in the same way  less than equal to  so in this also we will get  false but if we write"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2260.0,
+      "end": 2280.0,
+      "text": " greater than equal to  so it will be true  now there is another comparison operator  which compares two values  so if we have to compare  is 3 value equal to 2 value  so in that case we will write  equal to equal to  so this operator will check  if two values are equal or not"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2280.0,
+      "end": 2300.0,
+      "text": " if we run it then output will be false  but if we write 3 instead of 2  so in that case we will get  result as true  now we have checked equal to equal to  there is also an operator called not equal to  to do not equal to  you have to remove one equal to  and in the beginning you have to put an exclamation mark  exclamation means not"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2300.0,
+      "end": 2320.0,
+      "text": " now those students who have  studied logic gates or in college  in that we know that  if we put not  any value will be reversed  so in python also when we put exclamation  or not then everything will be reversed  true becomes false and false becomes true  so if we have to compare  two values"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2320.0,
+      "end": 2340.0,
+      "text": " so 3 not equal to 3  the output we will get will be false  and if we write 2  so its output will be true  means when two values  are equal and in between  not equal to then its output is false  means you are saying wrong  but if two values are not equal  and in between also not equal then its output will be true"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2340.0,
+      "end": 2360.0,
+      "text": " now next the operators we are going to study  their name is logical operators  in python there are 3 types of logical operators  first is  our OR operator  what does OR operator do  if we give two conditions to this operator  suppose one condition is true  and one condition is false  so what will it do if one of the two"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2360.0,
+      "end": 2380.0,
+      "text": " condition is true  so it will print true  if both are false then it will print false  so if we want to print  2 is greater than 3  or 2 is greater than 1  so here 2 is greater than 3  will return false and 2 is greater than 1  will return true  so the final output that will return"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2380.0,
+      "end": 2400.0,
+      "text": " will be true  now apart from this there is another operator  that is AND operator  what does AND operator do  it will print true  in all other cases it will print false  so for example print 3 is greater than 2  and 2 is greater than 1  so in this case  we will be getting print true"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2400.0,
+      "end": 2420.0,
+      "text": " but if we reverse any condition  means  if we make one condition false  then we will get print false  third logical operator  in python is NOT operator  what does NOT operator do  it makes true false and false true  for example if we want to print  2 is greater than 3"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2420.0,
+      "end": 2440.0,
+      "text": " so 2 is greater than 3  should be the output  but if we put NOT in front of it  then its output will be  true  if we reverse it  then it is possible that  reverse of true will be false  now let's talk about if-else statements  what are if-else statements"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2440.0,
+      "end": 2460.0,
+      "text": " in programming  whenever we have to apply any condition  if this is the thing then this should work  if not then this should work  when we have such situations  that if sun is rising  then we print day  if sun is setting then  we print night  so such conditions statements"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2460.0,
+      "end": 2480.0,
+      "text": " we execute in programming  in python with the help of if-else statements  so let's take a variable  age  we will store 16 in age  or in the beginning we store 19  and how to write if condition  if  age is greater than  equal to 18"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2480.0,
+      "end": 2500.0,
+      "text": " so to use if-else  we have to write keyword  then condition  then we have to put a colon  so here we put a colon  to show that  we are going to write a block of sentences  or statements  block of statements means  a combined statement pack"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2500.0,
+      "end": 2520.0,
+      "text": " so here we will print  you are an adult  and in the next line  we will print  you can vote  the coders coming from C++ and Java  for them block of codes  here it was in the form of curly braces  so here it was looking like opening curly brace  and here closing curly brace"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2520.0,
+      "end": 2540.0,
+      "text": " but in python  we don't apply braces for block of code  here we do indentation  indentation means giving proper space  so here indentation means  giving space of a tab  of 4 spaces  after this colon  so it tells us that  these two lines are part of if"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2540.0,
+      "end": 2560.0,
+      "text": " and after this if we write  a line outside, say print  thank you, so this thank you  will be printed in every case  these two lines will be printed when this condition  is true, so let's run it  by running it  our age was 19  if checked that if our age  is more than 18, then we will print"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2560.0,
+      "end": 2580.0,
+      "text": " these two lines, so for us  both lines were printed and thank you  was to be printed, now here  if age was 16  then only thank you would be printed  because this statement would be false  now we can't apply only one if condition  we can apply many other if conditions  so the next if condition  we will apply"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2580.0,
+      "end": 2600.0,
+      "text": " elif, elif means else if  if the first condition is not true  then you can check the second one  this means elif  so what we will do in elif  if our age  is less than 18  and  age is greater than  3, so in that case"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2600.0,
+      "end": 2620.0,
+      "text": " what we have to do  we have to print  you are in  school  and all the remaining  cases, means all the remaining ages  for them we have to  print you are a  kid  or you are a child"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2620.0,
+      "end": 2640.0,
+      "text": " because how many cases are left, those cases in which  age is less than or equal to 3  now here we have written three keywords  first was if, second was elif  third is else, if  defines our starting condition  in elif we define  if starting condition is not true  then you can check the second one, if second one is not true  then check the third one, now what else"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2640.0,
+      "end": 2660.0,
+      "text": " we do, if all the conditions  above are not true then  our else is executed  if we reach else, if these two  are false and we reach here  then for us this will be printed  so here we can define  any age, suppose we  wrote 13  so on that basis we got"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2660.0,
+      "end": 2680.0,
+      "text": " you are in school  if we  made age 2 then  we got you are a child, so in this way  we write if else statements  in python, now what we do  here we will make a mini project  in mini project using python  we have learned the concept  till now, using that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2680.0,
+      "end": 2700.0,
+      "text": " we will be building a calculator  so to build calculator  first of all we have to  take our two operators  means we have to take two numbers input  from our user, so to take  input of first number  we write enter first  number  after that we will take our operator"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2700.0,
+      "end": 2720.0,
+      "text": " input, whether to do plus, minus  multiply, divide or take modulo  so we will be performing only 5 operations  so our operator  will also be input  enter  operator  what are the options in operator  plus, minus, multiply  divide and modulo"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2720.0,
+      "end": 2742.0,
+      "text": " after that  we will print our second number  so input  enter second number  now we will put on these operators  if else condition, if there is plus  then we will print plus of first and second  if there is minus then  we will subtract first and second  so in this way we will write if else"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2742.0,
+      "end": 2762.0,
+      "text": " if  operator  equal to equal to  plus  in that case we will print  first plus second  now we will copy this statement  paste it here  here will come  minus"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2762.0,
+      "end": 2782.0,
+      "text": " here will come  multiply  here will come  divide and here will come  modulo  and in end what we will do  here we will do  elif  now again if and again  what is the difference in writing elif"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2782.0,
+      "end": 2802.0,
+      "text": " elif means  this condition will be checked only when  this condition is false  but if we write here then all the conditions  are checked whether the above one is  false or true  and we will write else case  in else case we will write  print  invalid operation"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2802.0,
+      "end": 2822.0,
+      "text": " now notice one thing here  our first and second  these are not numbers but strings  so convert first  in the form of number  run this code  after running  we enter first number 2  enter second number  before that enter our operator"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2822.0,
+      "end": 2842.0,
+      "text": " we have to multiply 2  with 2  so output is 4  execute it again  this time we want to  divide  5  2sic  so output is 2.5  so in this way"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2842.0,
+      "end": 2862.0,
+      "text": " we have built our mini calculator  which will use fs conditions  and perform all the operations  it will perform  so if you know python and you have laptop  sometimes calculator gets spoiled  internet is down  and there is no calculator app  which is highly  impractical situation"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2862.0,
+      "end": 2882.0,
+      "text": " so in that situation you can make your own calculator  and  cheat in exam  now next thing we are going to study  is range in python  in python range is  a range of numbers  range means going from one value  to another value  so if in python we wrote"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2882.0,
+      "end": 2902.0,
+      "text": " range of 5  so it means here  we want to write numbers  0,1,2,3 and 4  so from 0 to  5  we are defining all the numbers  with the help of range  but last number is not included  so range of 5"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2902.0,
+      "end": 2922.0,
+      "text": " if we store it  in numbers  and then print  numbers  so result will be range of numbers from 0 to  5 in which 5 is not included  so range is  actually a keyword  and from parenthesis we are getting to know  range is a function in python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2922.0,
+      "end": 2942.0,
+      "text": " range function  in which if you pass any number  it returns a list of numbers  a sequence  now in python next and  very important concept which we are talking about  is loop  so let's understand loop  suppose we want to print  1, then print 2"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2942.0,
+      "end": 2962.0,
+      "text": " then print 3  then print 4  then print 5  now in the same way  we have printed values from 1 to 5  these will come to us on the output screen  but  we have to print from 1 to 100  so are we  writing print statement again and again"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2962.0,
+      "end": 2982.0,
+      "text": " not at all  because programming is a game of smart people  in which all the hard work  is to be minimized  someone or the other comes  so here also to minimize our work  a concept came which we call  loops  in python first we will talk about while loop  while means"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 2982.0,
+      "end": 3002.0,
+      "text": " in english it means till  so you give a condition till that condition  is true till then your work  will be done as soon as condition  will be false your work will stop  so what we will do  we will define a variable  in this variable we will assign value  1 now we will write  while, while is a keyword"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3002.0,
+      "end": 3022.0,
+      "text": " in python and now we will write  our condition till our i  is less than  or equal to 5  till then you  print our i  and here we will update i every time  i is equal to i plus  1  so here i is starting with 1"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3022.0,
+      "end": 3042.0,
+      "text": " this while loop will run till  our i is less than or equal to 5  we will print i every time  and increase 1 in it  so if we run this code  so we will get 1,2,3,4,5  how it will print  earlier value of i was 1  now i is less than or equal to 5 so 1 is printed  now because of this statement i is"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3042.0,
+      "end": 3062.0,
+      "text": " increased to 2  2 is less than or equal to 5 so 2 is printed  in the same way all our numbers  will be printed on the screen  now here  if we would not have written update  then what would have happened  again and again 1 would have been printed  because value of i is always 1  and 1 point would have come"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3062.0,
+      "end": 3082.0,
+      "text": " after which our computer memory would have been filled  and our program would have crashed  that's why  these loops  in which this condition is removed  are called infinite loop  we should never write  infinite loop in our code  otherwise our code will crash  now here if we"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3082.0,
+      "end": 3102.0,
+      "text": " write 100 instead of 5  so we can print all the numbers  till 100  if we write 10000  so we can print all the numbers till 10000  and you saw how fast we printed  all the numbers in our python code  so in the same way code is  very fast and takes very less time  to perform every operation"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3102.0,
+      "end": 3122.0,
+      "text": " and these numbers  till 10000  we would have printed  so it would have taken a lot of time  now if we want to print any pattern  like during our placement  we get questions  so here value of i  is equal to  stars"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3122.0,
+      "end": 3142.0,
+      "text": " and we will  print 5  so in this case  some structure would have been printed  so what happened here  as much as value of i  so many stars were printed  so here first 1 star  then 2 star then 3 star  then 4 star then 5 star"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3142.0,
+      "end": 3162.0,
+      "text": " and this multiply  so it was very easy to  connect the strings  so multiply also works  so you can multiply any number  with any string  so that string will be printed  for us as much as time  so here if it was hello  so here it would have been"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3162.0,
+      "end": 3182.0,
+      "text": " hello once, hello twice  and here it would have been  hello three times  so if we want to print  the pattern of stars  here we have to print  star  and instead of plus 1  we have to print minus 1  so our pattern is printed in reverse"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3182.0,
+      "end": 3202.0,
+      "text": " so our triangle  is in reverse and is on screen  so in this way  our while loops work in python  now we will talk about for loops  for loops in python  usually we have a list  a structure to iterate on it  to put loop on it  so for loop is used"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3202.0,
+      "end": 3222.0,
+      "text": " basically you have an object  or sequence of numbers  to take the items of it  like if we have defined a range  from 0 to 4  so we have to print  all the numbers of this range  so what we will do is  for i in range print i  so here all the numbers"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3222.0,
+      "end": 3242.0,
+      "text": " which are in range  will be printed  so here we used the keyword for  in keyword  and then whatever item is written  we can write item  here also we can write item  we wrote in keyword and then range  so all the items in range  are printed for us"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3242.0,
+      "end": 3262.0,
+      "text": " now let's say  we have to print from 1 to 5  so here we have to print  item plus 1  so in this way  plus 1 is printed in all the items  so from 1 to 5 all the numbers  are printed  so in this way our for loop works  in python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3262.0,
+      "end": 3282.0,
+      "text": " now let's talk about list in python  so till now the data types which we have read  string, float, integer, boolean  these are all primitive data types  after this comes list data type  in list we can store  many primitive data types  so list can be called  collection of items  this is a complex data type"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3282.0,
+      "end": 3302.0,
+      "text": " like if we have to make a list  so let's say we have to store our marks  so we can store marks in a form of list  so to make a list  we use square brackets  in this we store our marks  first english marks  then chemistry marks  then physics marks  so in this way we stored marks"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3302.0,
+      "end": 3322.0,
+      "text": " and after that if we have to print  these marks then we can do  print marks  we run the code  so all the marks are printed for us  so this variable marks  is a list  now it's not like  in list all the data types  are same"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3322.0,
+      "end": 3342.0,
+      "text": " here if we want to store  maths then we can run it  so for us that will also be printed  now if we want to print marks  of an individual subject then how to do it  we will print it  by writing square brackets in front of marks  so in square brackets  we can print any index marks  we can print any index marks"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3342.0,
+      "end": 3362.0,
+      "text": " let's say we want to print  marks on 0th index  so this is 0 index, this is 1 index  and this is 2 index  so 0 index marks will be printed  which is 95  if we want to print 1st index  then it will be 98  now usually in other languages  the index is positive"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3362.0,
+      "end": 3382.0,
+      "text": " here also we talked about  how the index is increasing  0,1,2,3,4  so in python the index  can be negative also  so if we wrote 1 here  then we can write it as minus 1  minus 1 means  in python index  that start counting from back"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3382.0,
+      "end": 3402.0,
+      "text": " so minus 1 means our last item  so we printed it  so 97 is printed for us  similarly if we write minus 2  then it will be 98  so minus means we are starting counting from back  this comes on minus 1  this comes on minus 2  and this on minus 3  now if we print minus 4"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3402.0,
+      "end": 3422.0,
+      "text": " then list index will be out of range  because there is nothing happening  behind this  now if we don't want marks of last subject  we just want marks of first two index  so for that we can  make a new list  how can we make a new list  we can write marks  then we will write from which starting index"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3422.0,
+      "end": 3442.0,
+      "text": " to which ending index you want list  so starting index will be  0  and ending index will be  2  so here ending index is not included  so 0 colon 2  means 0 and 1  will be included  so let's print it"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3442.0,
+      "end": 3462.0,
+      "text": " so for us output is  95 and 98  similarly 1 and 3 means  that we are taking 1  and 2  so 1 will not be included but 0 will also not be included  so in that case it will be  98 and 97  now this whole list  every item of this"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3462.0,
+      "end": 3482.0,
+      "text": " every score  we can make a loop on it  which loop we will make here  we will make for loop  so we will write for score in  marks  print our  score  so this score will be printed for us  so it will be 95 and 98"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3482.0,
+      "end": 3502.0,
+      "text": " and 97  so one by one we can access all the scores  of marks  now marks list  we have made on list also  we can perform many operations  like we performed operations on string  similarly we will perform  operations on list  so first operation we will talk about"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3502.0,
+      "end": 3522.0,
+      "text": " is append operation  append means to add something  so if we have taken  marks of maths  we have to add marks  we will write marks.append  and what we will pass in it  whatever new marks we have to add  so we have added 99  so we have added that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3522.0,
+      "end": 3542.0,
+      "text": " after that we will print our marks  so in our marks  now 99 at the end  has been added or append  apart from this we will also  insert  suppose we are able to add something in the end  suppose we have to add something in the middle  so for that we will use insert  so here"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3542.0,
+      "end": 3562.0,
+      "text": " we will remove append  insert  if we have to add marks of maths in the beginning  so first we have to write index  for beginning index is 0  and marks will be 99  so we will run it  so 99 is now in the beginning  means start of the list  apart from this in our list"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3562.0,
+      "end": 3582.0,
+      "text": " which item exists  we can also check that  how will we check that  suppose we have to check  that our number 99 exists in our list  or not  so for that we will print  99 in marks  so what will this in keyword do  it will check whether 99 exists in marks"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3582.0,
+      "end": 3602.0,
+      "text": " so yes  it exists that's why it is printed  true for us  if we search here 93  so for that it would be false  so we can perform this operation  we get the length of marks  that how many elements are there in our list  what is the length  so here if we print"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3602.0,
+      "end": 3622.0,
+      "text": " len  and pass our marks in it  so the length of our marks list  will be printed for us  means 4 is printed for us  if we have to remove marks of maths  and print it  so for us in that case it would be 3  so till now we have iterated on marks  so we can use length"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3622.0,
+      "end": 3642.0,
+      "text": " with the help of for loop  so first we will define a variable  i is equal to 0  now we will write our while loop  while our i  is less than length of marks  till then we will  keep on printing marks of  i  and we will update"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3642.0,
+      "end": 3662.0,
+      "text": " i by 1  so what happened in this  with the help of while loop  so our marks are printed one by one  for us  now if we have to  empty the whole list  so for that we will use  a operation marks.clear  with the help of clear"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3662.0,
+      "end": 3682.0,
+      "text": " if we print our marks after this  so an empty list will be printed  so what will clear do  it will empty the whole list  so we have read some operations  on our list  now we are going to talk about  break and continue  are two important keywords in python  these keywords are also there in c++ and java"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3682.0,
+      "end": 3702.0,
+      "text": " so now  with an example we will understand  what is the meaning of these keywords  first of all we will make a list  in the list some students names  will be stored  ram, shyam, kishan  radha, radhika  so these are some 5  students names"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3702.0,
+      "end": 3722.0,
+      "text": " now our work is  we have to print all these names  one by one  and while printing we have to  take care of one thing  as soon as radha name comes  after that we don't have to print any name  means from ram  till the time radha name comes  till then we have to print all the names"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3722.0,
+      "end": 3742.0,
+      "text": " so how will we do for that  we will put a for loop  for student in students  we will keep on printing  our students  but as soon as  now here we are  writing if statement in for loop  so this is a new use case  we should see this carefully"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3742.0,
+      "end": 3762.0,
+      "text": " if our student's name  is equal to  radha's  so in that case  we will do  break  what is the meaning of this  for means we have iterated all the students  we have to print students every time  but as soon as"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3762.0,
+      "end": 3782.0,
+      "text": " our student's name is radha  before that we will do break  break means breaking that loop  and get out of it  means after this loop will end  so wherever we have to end the loop  we use break keyword  now if we run this  then only ram, kishan will be printed  and after that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3782.0,
+      "end": 3802.0,
+      "text": " the name will not be printed  now there is one more keyword  continue  kishan was a student  of our class but  his parents got transferred to another state  and now he has shifted  so he got his name cut from school  and his name should not be printed in the list  now we have to print name of everyone"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3802.0,
+      "end": 3822.0,
+      "text": " except kishan  so here we change the condition  if student is equal to  kishan then  in that case continue  means run our loop again  don't do any work of the current loop  so if we run this  then all the students name will be printed  except kishan"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3822.0,
+      "end": 3842.0,
+      "text": " so in this way  our continue works in python  now the next structure  which we are going to talk about in python  is called tuple  tuple is like a list  but immutable  means once you make tuple  you can't change it  like in list we were able to insert things"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3842.0,
+      "end": 3862.0,
+      "text": " append things  so that type of  addition, modify or delete  operation is not there in tuple  so if we have to  define tuple of marks  so here we write marks  is equal to  now we define tuple in parenthesis form  like in list we used to use square brackets"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3862.0,
+      "end": 3882.0,
+      "text": " now we will use our parenthesis  we will store our marks in marks  95 for english  98 for chemistry  97 for physics  now if we have to do marks of maths  or we don't want to keep 95 on 0th index  we want to keep 99  so what we will do  marks of 0 is equal to"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3882.0,
+      "end": 3902.0,
+      "text": " 99  but here we will get an error  why error will come  because tuple object doesn't support  item assignment  because we are trying to change our tuple  so we can't do this  so tuples are immutable  now we are talking about  two operations"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3902.0,
+      "end": 3922.0,
+      "text": " first operation is  it counts which object  is how many times  like if we write 97  three times  and we want to print  and we want to count how many times 97 came  so we will write marks  dot count  if we want to count 97 in count"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3922.0,
+      "end": 3942.0,
+      "text": " so we will pass 97  and 3 is printed for us  now we want to see how many times 95 came  so 1 is printed  similarly if we want to see  index of any number in tuple  so we will print  marks dot index  now which ever number we want to see  say we want to see 97"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3942.0,
+      "end": 3962.0,
+      "text": " so if 97 is coming three times  so first time when 97 will come  its index will be printed for us  so 2 is printed for us  95 is on 0, 98 on 1  and 97 on 2  first time  so this is how tuple works  next structure we will talk about  in python is set"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3962.0,
+      "end": 3982.0,
+      "text": " now we have studied about sets in maths  what were sets  like if we want to store  collection of many elements  but we want to keep only unique elements  not duplicates  so in that case we used set  similarly sets are there  in python  now if we want to make tuple a set"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 3982.0,
+      "end": 4002.0,
+      "text": " so for that we will change this bracket  and here we will bring curly braces  so till now  what we have learnt  when square brackets comes then we have list  when parenthesis comes then we have tuple  and when curly braces comes  then we have set  so we can differentiate like this  now one more special thing"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4002.0,
+      "end": 4022.0,
+      "text": " that in tuples  putting parenthesis is not compulsory  means if you will write person  is equal to  ram comma sham comma abhi  so this structure  will be by default  a tuple  if we print this  so for us it will be a tuple"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4022.0,
+      "end": 4042.0,
+      "text": " after printing  so these parenthesis are not compulsory  they are optional  but code should be good  so that the reader knows  what we have tried to print  that's why we use parenthesis  so here we have defined set  now in set  97 is 3 times"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4042.0,
+      "end": 4062.0,
+      "text": " but if we print our marks  so 97 will be printed only once  once because  unique values are stored in set  second thing  if we try to print marks of 0  then  error will come  error will come because in marks  in sets index doesn't exist"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4062.0,
+      "end": 4082.0,
+      "text": " means which value is on which index  no idea  if you want to iterate on this  so you can only run a loop  you can't access values from index  we will remove this  and now we will run  so for us  all our marks are printed  now since in sets"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4082.0,
+      "end": 4102.0,
+      "text": " index doesn't exist  that's why it is called unordered  order means fixed sequence  of things  so where index is there it is called ordered  if index is not there in sets  then it is called unordered  there is another structure like this  in python which is called dictionary  dictionary is a very important structure"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4102.0,
+      "end": 4122.0,
+      "text": " in dictionary we store  key value pairs  like if we want to store  single student's information  then we will do it in tuple, set or list  but with student  always parent's information should come  key and value  when information is stored in two pairs  then it is stored in dictionary"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4122.0,
+      "end": 4142.0,
+      "text": " like if we want to convert  our key in dictionary  so for that we will convert  like this  first we will put curly braces  then we will write our key  our key is english  then we will put colon  then we will store marks of english  95, then we will store marks of chemistry"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4142.0,
+      "end": 4162.0,
+      "text": " colon  98  so like this  we have kept our key as subject  and we have kept our value as marks  if we were storing student's information  then we would have  made a dictionary  like this  first would have been"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4162.0,
+      "end": 4182.0,
+      "text": " student's father's name  like this  so like this  student would have stored  parent's information  now if we want to access  any information  like we want to print marks of chemistry  so here we will write  marks of"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4182.0,
+      "end": 4202.0,
+      "text": " chemistry  so in first index  we used to write number  now we can write key instead of number  so here we have passed chemistry as index  and for us  marks of chemistry will be printed  which is 98  now if we want to add new marks  then how to add"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4202.0,
+      "end": 4222.0,
+      "text": " here we can write marks  now after that we have to print marks of physics  so first we will add marks of physics  97  now we will print our marks  so here we have English  here we have chemistry  and here we have physics  now we can change existing marks  in dictionary"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4222.0,
+      "end": 4242.0,
+      "text": " so if we want to make marks of physics  as 99 instead of 97  so what we will do  marks of physics  is equal to 99  and after that  we will print our marks  so here  marks of physics  will be printed in second line"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4242.0,
+      "end": 4262.0,
+      "text": " now let's talk about functions  like we have  a TV remote  so by pressing different buttons  of remote we can do different things  like if we press  plus plus button then volume will increase  if we press minus minus button  then volume will decrease  so every button is performing different operation"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4262.0,
+      "end": 4282.0,
+      "text": " similarly in python code  there are different parts of program  every part performs  an operation  and if this part performs  specific operation then we call it  function  so there are three types of functions  in python first are inbuilt function  second are module function"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4282.0,
+      "end": 4302.0,
+      "text": " and third are user defined function  which is defined by user  which we are writing  now inbuilt function  we have already read it  inbuilt function means  like we read int  in our type conversion  or we read str  or we read bool"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4302.0,
+      "end": 4322.0,
+      "text": " these functions  are our inbuilt function  which already exists in python  and we use them directly  second type of function  are module function  now what are modules in java  when related functions  and related variables  are stored in one file"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4322.0,
+      "end": 4342.0,
+      "text": " we name that file  module in python  now there are many modules in python  we can use them directly  and we can get our work done  from their functions  like example of such module is  math module  to use math module we have to  write in our code import math"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4342.0,
+      "end": 4364.0,
+      "text": " now in math module  there are many functions  which are already written  how can we print these functions  dir of math  so as we print  dir of math  similarly all these functions  which are printing on screen  are functions of math module"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4364.0,
+      "end": 4384.0,
+      "text": " now if we pick  any particular function  then we have  picked square root  now if we only need  square root function  then we can  from math  import  sqrt"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4384.0,
+      "end": 4404.0,
+      "text": " and what does sqrt function do  it returns square root of any number  so if we print  sqrt of 4  so in that case  square root of 4 will be printed  which is 2.0  similarly if we print 16  then it will be 4.0  similarly we can"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4404.0,
+      "end": 4424.0,
+      "text": " take functions  instead of module  suppose we need all functions  then we can do star  star means select all  so in that case all functions will be  available and we can use  square root directly  now third type of function  in python is user defined function"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4424.0,
+      "end": 4444.0,
+      "text": " which is made by  programmers  now what is syntax  syntax means proper way of writing  so till now  we were using proper keywords  proper things, space  that was all syntax of python  now syntax of writing function is  first you write definition"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4444.0,
+      "end": 4464.0,
+      "text": " after definition we write  definition means daf  here we will define our function  after that we write function name  so function name is a variable  which we can give by our self  that we want to keep function name  after that we write parenthesis  after parenthesis we write some parameters  parameters means"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4464.0,
+      "end": 4484.0,
+      "text": " some function may be taking some input  and on that input basis  returning some output  like if we convert calculator into function  then calculator will take  operator and will depend on  what output will come  so that will become calculator parameter  so parameter comes after that  colon comes and finally"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4484.0,
+      "end": 4504.0,
+      "text": " inside all lines we have to write  together block of code of function  we can write that  so suppose we want to write a function  what this function does  it prints sum of two numbers  so how to write function  first we will write def  we will write function name  print sum"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4504.0,
+      "end": 4524.0,
+      "text": " now after print sum we will write  parenthesis, inside parenthesis  we will take two numbers  first will be first  second will be second  then we will write colon  and second will be parameters  in which we will pass some number  and here we will print  first"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4524.0,
+      "end": 4544.0,
+      "text": " plus second  and from here we will call  call any function means  execute it  run it  so to call print sum we will write  print sum, parenthesis  inside that we will pass parameters  whatever parameters we want to give  in first we want to give one"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4544.0,
+      "end": 4564.0,
+      "text": " and this print sum  will print sum for us  so let's run it  so sum of one and two  is directly printed  which is three  now suppose we want to  keep value of by default parameter  like second number  if nothing is passed in that"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4564.0,
+      "end": 4584.0,
+      "text": " then second will become four  so suppose we didn't pass anything  in place of two, only one  so in that case by default  second will be four  and sum of one and four  will be five  so in this way  our functions work in python  so i hope"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4584.0,
+      "end": 4604.0,
+      "text": " all the concepts of python  we have discussed today  now after this if we want to  go in programming, want to study for placement  want to study for competitive programming  so we can learn oops in python  or if we want to  go to machine learning  or if we want to go to data science  or artificial intelligence"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4604.0,
+      "end": 4624.0,
+      "text": " so we can study related modules  like file handling in python  and if we want to go to development  so we can learn framework named django  i hope your coming journey  of python will be good  apart from this if you want video  related to python or machine learning  or related to AI  so you can comment below"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners ",
+      "start": 4624.0,
+      "end": 4632.0,
+      "text": " that's all for today  till then keep learning and keep practicing  Thank you"
+    }
+  ],
+  "text": " intro Hi everyone, I am your Shraddha Didi and today we have brought a brand new Python course for you after doing this course you will be learning about the most important programming concepts of Python from basic installation now if you are a student who has studied something like C++, Java, JavaScript and now you want to learn Python or if you are a student who is going to do programming from the beginning then this video is made for you after watching this video if you want you can prepare for college placements, do competitive coding, learn about frameworks like Django in web development or learn things like artificial intelligence, machine learning, data science to do this video we will need only two things, first is a laptop and second is a lot of excitement so let's start our brand new Python course Python is a very beautiful language which is used in a lot of big companies big companies like Google, YouTube, Instagram, Netflix, Uber use Python to make their software now we will learn about installation, how to install Python in your laptop, in your machine and how to install the code which we are doing on the software so here we have made the installation process for Windows users and Mac users so you can go to the time stamp given below and see which installation you need to do first of all let's start our Windows installation so to install Python in Windows first of all we have to go to a website named python.org we have given the link of the website in the notes below and you can see it on the screen so by going to downloads we will download Python 3.1 0.0 after downloading we will open this file in our folder then we have to click on the exe file and install it now the software we will use to write Python in Windows is called PyScripter PyScripter is an open source free software which we can go to the site after going to the website we have downloaded it once after that we will have a window of different options so inside the window we have to click on next next now after installing we have to click on execute and after that our installation will be complete we will get options like what language we want to select which folder we want to make default where our Python file will be saved we will click on next next and finally we will install now inside the setup window we will click on next and for us the window of our PyScripter will open now we will clear this module and now we will start writing our entire code from the beginning to output anything in Python we have to write print and after that we write the entire statement now the lines highlighted above are comments which are not part of the code and below the print we have written is a function function code is that part which gives us an operation or a task then we have used parenthesis functions are always written with parenthesis in Python and inside that we have written what we have to print so we have written hello world now we have written hello world with double quotes so whatever text is there in Python we write it in quotes we could have written hello world in single quotes but since I am from Java C++ background so my habit is that I write strings in double quotes and characters like a,b,c,d I write them in single quotes that's why I prefer to write strings in double quotes now after clicking the green run button we will run our code and below we have output hello world and above we can see our Python version which is 3.10.0 now instead of hello world if we want to print hello coders then we can do that too we just have to write print hello coders we can run this too and if we want to print something else then we can print a whole sentence that I know how to count in which we can print 1,2,3,4,5,6 numbers and that will come on our output screen now if we want we can save this whole Python code in a file so to save it in a file we will go to file and click save as and then we will give any name of our choice now by default we have to save Python files code with .py that's why we will name our file as firstprogram.py and we have saved it and we can see this new name in our IDE now in the next tutorial I have used Pycharm because in my system virtual machine windows can't run for a long time that's why in the next course whatever code we have written we have to write all those codes in the same way in PyScripter and just click on the run button and we have to wait for a while there will be no error or any problem for us the editor we are using in macOS is named Pycharm to install Pycharm we have to go to JetBrains site and install Pycharm there now after installing when we will open it we have to drag it directly and put it in our applications folder and while opening we have to keep the settings in default that's why we will keep on oking all the things and finally Pycharm will open for us so we have installed Pycharm now we will start by opening our software so here we will see a window now we can create different projects in this these are the projects in which we can put many python files so first of all we will make a new project for ourselves here we will write the name of the project so we will give the name of the project Apna College and this is the path before the name of the project this is the path where all the files of our project will be saved in our computer so all the python files we will write in our project will be saved here in this location after that we can choose our environment from here environment is a little advanced topic so if we are starting a new coding journey so for now we will ignore this here we have taken our base interpreter as python now already in the computer there were other versions of python but we have chosen the latest version it is possible that when you open your Pycharm so all these options are not coming in it you are able to create a new project directly in it you don't have to make changes in the settings so there is nothing to worry about here we will create if we already want a python file which is a sample file then we can tick this option but we will make our file by ourselves so let's start by un-ticking it and here our Pycharm is open so here our python files where will they be stored? they will be stored in this folder this Apna College, whatever name we gave to the project a folder has been created in our location and in this folder we can see different files now in this folder we have to create a python file so what we will do is right click go to new and go to python file we can name this python file anything suppose we want to name it first program so after naming it first program here a python file has been created and here this file has been opened so here we can write our code now you will know that the name of the file is firstprogram.py so all the python files their extension is .py like if we have used Microsoft word then in that or in notepad or in windows we can save the file with .txt that it is a text file that's why here python is saved with .py like c++ file is saved with .cpp or java with .java so there is some extension of that here we have some files of our virtual environment so from here we can see that if we have a lot of python files then which file we have to go in and which file we don't have to go in but we are working on the same file so here we will click on this minus button and hide it so now we will focus on our python file all our python programs we will be writing here we will make it little big text wise now we will be writing our first python program now this is the program which is written in other languages which is written in other languages which is called hello world so usually when you learn a new language you print hello world and learn on a new screen now if you are coding in python then you are doing something in the program but the output of that program how will we see that we will learn that now for output we have to write print after print we will put parenthesis so we call these brackets as parenthesis inside these we can print anything whatever we have to print from the program now here we are going to print hello world and here the double quotes which we have put they represent the string what is string? whenever any text, character like abcd, afgh, at the rate, hash 1,2,3,4 we write these in double quotes so it becomes text text means which we can't change it will be same now if we have to print string then this statement is enough a small key point java is a case sensitive language means you can't make this small p big p otherwise a red line will come and then error will come because big p doesn't exist so you can print things now the parenthesis we have used shows what is print? it is a function in python now what are functions? how we can make them? we will learn that later for now let's learn that print is a function in java, whatever we have to print on screen we can write it inside and now we will run this code to run there is a run option inside run you go and click run on first program and here in output screen we have print hello world now there are many keyboard shortcuts like when you go to run so here this ctrl shift r is the keyboard shortcut so those who are using mac can use this for windows there will be a different shortcut so you can use it accordingly so like this you will remember shortcuts so your code will be completed faster now we will learn about variables in python now if we have to store any data inside python so how we will store it? we know that if there is any data inside python so it will eventually go to computer's memory and store so the computer's memory where data is stored we will give it a name so next time we will know where data was stored what is its name so we call this name variable in python variables define memory's location where data is stored so like suppose we have to store a name so for name we have written variable we can give name of variable name of variable is name and we want to store a string inside variable so we will store name with this suppose you want to make another variable you have made variable age you don't want to store string inside age you want to store number so here we have stored number now what we can do we can print this name now to print if we write like this so what will be printed for us let's see if we print name directly inside codes so for us name will be printed directly that name will not be variable whatever goes inside strings it doesn't take its value it prints it as it is so here we will be writing name and if we run it now what is printed we have stored value inside name in the same way we can print age with name and here age will be printed now these variables we have made if we give value inside it then we can change that value means by changing name if we want to do something else by changing age then those values will change and now the name and age will be different so according to this if we made variable then values inside it can change now we will be talking about 4 major types of variables in python first we have learned that string is there one we have learned that number is there now this number we have seen here is an integer number suppose if we 24 we have to make 24.0 so this type of number we call floating number in python and this was our integer now there are 4th type of variables in python we call them boolean boolean defines if something is true or false so in boolean two type of values can be stored either it can be true or false so here according to our age suppose we have written adult so in this adult we can write true now this red line came because java is case sensitive and in true actually T is capital so if we don't take care of case if we keep capital of things we will make them small or small one will be capital then error can come here we can write false also if our age was less than 18 similarly we can define boolean variables in python special thing of python is you don't have to tell before defining variables that which type this variable is going to be you can store any value in any variable without defining any type now to define variable you can use 2-3 strings in between you can use underscore so like this there are many names to define variables what are the rules you can get in notes now before moving ahead there is one exercise in exercise first thing we have to define a person whose first name and last name so we have to define two variables whose first name is going to be tony last name is going to be stark then we have to define age in which we are storing 51 years of age after that is a genius is going to be a variable so tony is a genius now how you are defining with the help of boolean we have to write a code of 3-4 lines of that the solution of this exercise is given in the notes so first you have to try the exercise after that you have to see the solution next thing we are learning in python is to take input from user till now what we have learnt if we have to print something in python then how we can print it on screen now we will learn if we have to take something in input then how we can take it from user so for that we are using a function called input what does input do any value takes input from user so here we have to take input name what is your name here we have written question mark now if we run this code so here now we can input our name now we have input this name but this program has not stored it anywhere so let's make a variable for this we will store it in name run it again so here now we will print this name in next line so what happened here we have input name program has stored it in name variable and then we have printed the name so here the name which we have entered which was tony that has been printed on our screen so in this way we take input from user and store it in variable and then again to show it to user we print it to print it more nicely we can write hello here and we can put plus sign in between so what will happen with this plus sign with hello our name string will be joined and both will be printed together so this whole process is called concatenation in programming so let's run it run it so here we have to enter our name which is tony so hello tony has been printed for us now here is one more exercise that you have to ask user what is your superhero name or you can ask tony what is your superhero name so he will enter his superhero name or his superhero version and you have to store that name in a variable and print it on screen so this is a small exercise, you will get solution for this in notes next topic that we are talking about is type conversion we need type conversion because whenever we input anything in python so all our inputs come in a string format so if we input number if we input floating value if we input boolean all these things will come in string format like suppose we input someone's age we will store it in old age variable and here we will write our input function enter your old age now we have to convert this old age in new age to convert in new age what we will do in old age we will add 2 and finally we will print our new age so what we did, we made an old age variable we took input in it and put our old age in old age we added 2 years and the sum of both we put it in new age so sum is taken here in form of plus so we will add 2 with our old age and store it in new age so what happened with equal to right value went to left and then we printed new age now whenever we will execute this thing suppose our old age was 20 so here we got a type error what type error is saying can only concatenate string not int to string means we can concatenate string with string concatenate means it is trying to connect string with string but it is getting a number here it took 2 as a number but it took old age as a string now we don't have to send old age as a string, old age we passed 20 but it took 20 as a string so it is visualizing 20 in this way but we want it to be visualized in form of number so for that we will do type conversion for type conversion we use a function named int int represents integers so whole numbers complete numbers minus 1 all these numbers which don't have decimal point all those are integers we will pass old age in int so in this way its output will convert in old age in integer so here if we write int in that we passed old age and then run the code so now if we pass our age then we will get correct output now there will be no error now it is not like that only in integer we have to convert if we want then we can convert valid values in float or we can convert in string using str function we can convert any value in boolean so we will talk about 4 types of conversions in which valid variables we can convert in float float means where there is a decimal like if 18 we have a number in which value is stored now what we did we converted this number in float so let's see what will be its output its output is 18.0 so the number which was integer and there was no decimal we converted that also in decimal so in this way type conversions are there in python now what we will do we will write a small program so that we can get an idea how to write programs in python so we will write a code because of which we will calculate sum of two numbers so first we will make a variable and store our first number so here we will do input enter first number in the same way we will make a variable second, in second we will write input enter second number and now in sum what we will do first plus second we will store now its output will not be what we are thinking what we need to change first we will enter our first number suppose we enter 2 and then enter second number 3 so what we printed nothing yet because we didn't print sum so let's print sum run again here it printed 23 so why 23 of 2 and 3 printed because our first and second both are string we didn't convert type so here concatenation happened first is connected to second so 3 is connected to 2 to remove concatenation we have to convert it in int so first we will convert in int second we will convert in int then we will calculate sum run again so first we will pass 2 second we will pass 3 output is 5 so how to write sum of both we can write many programs in python now suppose before print we have to print the sum is and here we will write plus so in that case it will not print directly in that case error will come that we can't concatenate string with int so to print this sum we have to convert in string form then our sum will be printed correctly now in python we will talk about a special topic which is strings before using string we will define our string with name we will store tony stark now as soon as you type name. many things will appear on screen like index count, upper, replace, find so all these are called methods we can do many changes in string so we will read about these changes first change we can do in string is that if we want to convert all characters in upper case so for that method exists what we have to do after our string we have to write dot upper and then parenthesis now we have to print this after printing so in output all characters will be capitalized now this dot upper function it doesn't convert our string directly like if we print name after that it will be normal means it returned a new string with capital letters it didn't touch original string similarly if we want to convert all in lower then we will write lower so all characters will be converted in lower case next operation which we will talk about is find operation now in a string if we want to search any character or sub string so for that we can simply write dot find so suppose in Tony Stark we have to search for capital S so here we will write print name dot find we will pass our capital S in it now to define strings in python we can use double quotes or single quotes but since I am from C++ and Java background so when I have to define characters which means single A single B, single C, single at the rate so I use single quotes and when we have to define strings like word or sentence or a whole paragraph so I use double quotes you can use any quote as per your wish so here we are going to find this capital S in our name so this find will find any particular character or sub string in the string if it finds it so wherever it finds on index it will return the index and if it doesn't find it, it will return minus 1 what is index? in python, index is our position like if we talk about this name string so in this, on zeroth position comes T, on first position comes O, on second position comes N on third position comes Y on fourth position comes space so whatever are the indexes in python, they start from zero means they don't start from first position they start from zeroth position same is in C++ same is in Java but there are many languages which start from index 1 but we are talking about zero indexing so here if we run this code so where did it find S? on index 5 0, 1, 2, 3, 4, 5 on index 5 comes our capital S suppose we have to search small s so in that case here returns minus 1 because small s is not in our string apart from that we can find any sub string like suppose we want to find star that also starts from our index 5 but if we make s small of star so in that case minus 1 will be printed so in this way we have to be careful which case character or string we are searching now next operation which we will talk about is that in string we can pick any part and replace it with any other part like here instead of Tony Stark suppose in our string we have to remove all Tony Stark and replace it with Iron Man so how we do that? we print name.replace who do we want to replace? all Tony Stark who do we want to replace? with Iron Man so run it now what is printed for us? Iron Man but it doesn't change original string so if we print name again then our original name will be printed which is Tony Stark now suppose we want to print Tony Iron Man instead of Stark so from here we will remove Tony so we will be replacing Stark with this term so what is printed for us? Tony Iron Man so in this way we can replace existing substring or even whole string we can also replace characters if we replace T with M then we have Moni Stark so we can also replace characters now what does find function do? find function will bring index for us so in any position it will get a character or substring but we just have to check whether that substring or character exists or not we don't have to check its index so for that we use an in keyword what are keywords? like in any language there is a dictionary which defines that these words are part of this language similarly keywords of programming languages are part of dictionary of programming languages like in English language we know that apple is a word orange is a word when we use input so input is a keyword along with that we use print so print is also a keyword then only it is highlighted in our editor with purple rest of the variables which we define are not highlighted they are simply visible in white so all the keywords are highlighted if we are writing any text that is highlighted in green now if we want to find any character or substring in our string so we use in function we want to find capital T in name so for us print is true does our capital T exists in our name string so in that case for us print is true but if we want to find m so for that print will be false that m does not exist if we want to find substring that does star exist in name so for that it will be true now if we want to find iron man so for that it will be false so in this way we can search by getting true false in any string now next we are going to talk about arithmetic operators what are arithmetic operators like in math we have studied many operations whenever we have studied in 1st, 2nd, 3rd class of math we had to do plus so we used plus sign minus sign multiply so for all these operations the operator used that is the signs used we call them operators in python now here we will see different operators they are almost similar to what we have used in math first operator is plus so we will print 5 plus 2 so we will see sum from plus operator after that if we replace plus with minus so this is used for subtraction so it is 5 minus 2 print is 3 if we want to multiply so we will put asterisk so on our keyboard this asterisk sign is multiplication in programming so 5 into 2 is printed if we want to print so we will put slash slash means divide in arithmetic operators so we have printed 5 divided by 2 is equal to 2.5 now when we multiply any two numbers so either our result can be in decimal or in integer like here if we were dividing 10 by 2 so answer would have been 5 but if we are dividing 5 by 2 so answer is 2.5 suppose there are some cases where we don't want decimal numbers so to remove decimal numbers to take only integer value we will make this slash double so when we put two slashes or two divide signs so our decimal part will be removed from result so we run it so 2.5 is not printed only 2 is printed now along with this there is another operator in programming, it is in java, c++ and python which is not usual in maths it is our remainder operator it is also called modulo so this sign of percentage represents our remainder operator what does remainder operator do? when we divide two numbers so whatever remainder is left it returns that so we print this 5 divided by 2 remainder is 1 along with this there is another operator which is power operator so to make one number to make power of one number we put two asterisks or two stars so here we put star star it means 5 to the power 2 which is 25 when we run it it will be 25 printed now in python there are some shortcuts to calculate things which we should know so first of all let's assume we have a variable in which we wrote 5 in the beginning now what we did we added 2 in 5 and we assigned i to this whole so whenever there is such expression in python we can minimize it and write we can write this whole expression plus equal to 2 so this first line and this second line both have same meaning in python similarly if we want to minus then we can write minus equal to 2 and if we want to multiply then multiply equal to 2 so in this way we can perform many operations by minimizing them now in python let's talk about operator precedence operator precedence means if we have given some expression like 2 plus 3 into 5 or this expression can be 2 plus 3 means 5 into 5 25 or it can be 3 into 5 15 plus 2 so 17 now which one will be right it depends on which operator in python takes precedence means which operator will perform first operation so there is a rule of board math similarly there is a rule in python now the operator precedence has a whole chart which operator will take precedence you can get that in link here we will discuss in a little while we will discuss that multiplier operator has higher precedence as compared to plus operator so here result is 17 so first 3 into 5 will be multiplied after that 2 will be added if we want to add 2 first then we can put brackets if we put brackets then result will be 25 similarly here if we multiply then multiply will be before plus so after multiplying we get 2.6 so in this way we have precedence of different operators now let's discuss another small thing in python that is comments code part which doesn't do any calculation doesn't perform any operation means there are things which we have to write on our screen but we don't want to make them part of code suppose we want to write them in normal english so we call them comments how do we write comments suppose we write hash so all comments start with hash in python after that we can write here is a comment so this is a normal english line but here we will not get error why? because here we have made it a comment if we would have written this line below then we would have got an error so how can we write normal english in python we can write comments now what is the work of comments whenever we go to organizations or companies or start ups or whenever we are writing a good code so your code at some point of time someone else must be reading it now that person should understand which part of your long code performs for that you write a comment on every part like we made a small program of two numbers so in that first comment would have been taking input so first is equal to input we would have done something after that our second comment would have been calculate sum so in this way to define our program we can use comments now we are going to read in python about comparison operators comparison means comparing two things which is big and which is small now to compare in python there are some operators these operators return boolean value means whatever operator you have applied its true or false will depend on what condition you have applied so first of all we have to print 3 is greater than 2 so is 3 greater than 2 yes it is so its result will be true but here we can do 3 is less than 2 so this is a comparison operator in that case we will get return false in the same way less than equal to so in this also we will get false but if we write greater than equal to so it will be true now there is another comparison operator which compares two values so if we have to compare is 3 value equal to 2 value so in that case we will write equal to equal to so this operator will check if two values are equal or not if we run it then output will be false but if we write 3 instead of 2 so in that case we will get result as true now we have checked equal to equal to there is also an operator called not equal to to do not equal to you have to remove one equal to and in the beginning you have to put an exclamation mark exclamation means not now those students who have studied logic gates or in college in that we know that if we put not any value will be reversed so in python also when we put exclamation or not then everything will be reversed true becomes false and false becomes true so if we have to compare two values so 3 not equal to 3 the output we will get will be false and if we write 2 so its output will be true means when two values are equal and in between not equal to then its output is false means you are saying wrong but if two values are not equal and in between also not equal then its output will be true now next the operators we are going to study their name is logical operators in python there are 3 types of logical operators first is our OR operator what does OR operator do if we give two conditions to this operator suppose one condition is true and one condition is false so what will it do if one of the two condition is true so it will print true if both are false then it will print false so if we want to print 2 is greater than 3 or 2 is greater than 1 so here 2 is greater than 3 will return false and 2 is greater than 1 will return true so the final output that will return will be true now apart from this there is another operator that is AND operator what does AND operator do it will print true in all other cases it will print false so for example print 3 is greater than 2 and 2 is greater than 1 so in this case we will be getting print true but if we reverse any condition means if we make one condition false then we will get print false third logical operator in python is NOT operator what does NOT operator do it makes true false and false true for example if we want to print 2 is greater than 3 so 2 is greater than 3 should be the output but if we put NOT in front of it then its output will be true if we reverse it then it is possible that reverse of true will be false now let's talk about if-else statements what are if-else statements in programming whenever we have to apply any condition if this is the thing then this should work if not then this should work when we have such situations that if sun is rising then we print day if sun is setting then we print night so such conditions statements we execute in programming in python with the help of if-else statements so let's take a variable age we will store 16 in age or in the beginning we store 19 and how to write if condition if age is greater than equal to 18 so to use if-else we have to write keyword then condition then we have to put a colon so here we put a colon to show that we are going to write a block of sentences or statements block of statements means a combined statement pack so here we will print you are an adult and in the next line we will print you can vote the coders coming from C++ and Java for them block of codes here it was in the form of curly braces so here it was looking like opening curly brace and here closing curly brace but in python we don't apply braces for block of code here we do indentation indentation means giving proper space so here indentation means giving space of a tab of 4 spaces after this colon so it tells us that these two lines are part of if and after this if we write a line outside, say print thank you, so this thank you will be printed in every case these two lines will be printed when this condition is true, so let's run it by running it our age was 19 if checked that if our age is more than 18, then we will print these two lines, so for us both lines were printed and thank you was to be printed, now here if age was 16 then only thank you would be printed because this statement would be false now we can't apply only one if condition we can apply many other if conditions so the next if condition we will apply elif, elif means else if if the first condition is not true then you can check the second one this means elif so what we will do in elif if our age is less than 18 and age is greater than 3, so in that case what we have to do we have to print you are in school and all the remaining cases, means all the remaining ages for them we have to print you are a kid or you are a child because how many cases are left, those cases in which age is less than or equal to 3 now here we have written three keywords first was if, second was elif third is else, if defines our starting condition in elif we define if starting condition is not true then you can check the second one, if second one is not true then check the third one, now what else we do, if all the conditions above are not true then our else is executed if we reach else, if these two are false and we reach here then for us this will be printed so here we can define any age, suppose we wrote 13 so on that basis we got you are in school if we made age 2 then we got you are a child, so in this way we write if else statements in python, now what we do here we will make a mini project in mini project using python we have learned the concept till now, using that we will be building a calculator so to build calculator first of all we have to take our two operators means we have to take two numbers input from our user, so to take input of first number we write enter first number after that we will take our operator input, whether to do plus, minus multiply, divide or take modulo so we will be performing only 5 operations so our operator will also be input enter operator what are the options in operator plus, minus, multiply divide and modulo after that we will print our second number so input enter second number now we will put on these operators if else condition, if there is plus then we will print plus of first and second if there is minus then we will subtract first and second so in this way we will write if else if operator equal to equal to plus in that case we will print first plus second now we will copy this statement paste it here here will come minus here will come multiply here will come divide and here will come modulo and in end what we will do here we will do elif now again if and again what is the difference in writing elif elif means this condition will be checked only when this condition is false but if we write here then all the conditions are checked whether the above one is false or true and we will write else case in else case we will write print invalid operation now notice one thing here our first and second these are not numbers but strings so convert first in the form of number run this code after running we enter first number 2 enter second number before that enter our operator we have to multiply 2 with 2 so output is 4 execute it again this time we want to divide 5 2sic so output is 2.5 so in this way we have built our mini calculator which will use fs conditions and perform all the operations it will perform so if you know python and you have laptop sometimes calculator gets spoiled internet is down and there is no calculator app which is highly impractical situation so in that situation you can make your own calculator and cheat in exam now next thing we are going to study is range in python in python range is a range of numbers range means going from one value to another value so if in python we wrote range of 5 so it means here we want to write numbers 0,1,2,3 and 4 so from 0 to 5 we are defining all the numbers with the help of range but last number is not included so range of 5 if we store it in numbers and then print numbers so result will be range of numbers from 0 to 5 in which 5 is not included so range is actually a keyword and from parenthesis we are getting to know range is a function in python range function in which if you pass any number it returns a list of numbers a sequence now in python next and very important concept which we are talking about is loop so let's understand loop suppose we want to print 1, then print 2 then print 3 then print 4 then print 5 now in the same way we have printed values from 1 to 5 these will come to us on the output screen but we have to print from 1 to 100 so are we writing print statement again and again not at all because programming is a game of smart people in which all the hard work is to be minimized someone or the other comes so here also to minimize our work a concept came which we call loops in python first we will talk about while loop while means in english it means till so you give a condition till that condition is true till then your work will be done as soon as condition will be false your work will stop so what we will do we will define a variable in this variable we will assign value 1 now we will write while, while is a keyword in python and now we will write our condition till our i is less than or equal to 5 till then you print our i and here we will update i every time i is equal to i plus 1 so here i is starting with 1 this while loop will run till our i is less than or equal to 5 we will print i every time and increase 1 in it so if we run this code so we will get 1,2,3,4,5 how it will print earlier value of i was 1 now i is less than or equal to 5 so 1 is printed now because of this statement i is increased to 2 2 is less than or equal to 5 so 2 is printed in the same way all our numbers will be printed on the screen now here if we would not have written update then what would have happened again and again 1 would have been printed because value of i is always 1 and 1 point would have come after which our computer memory would have been filled and our program would have crashed that's why these loops in which this condition is removed are called infinite loop we should never write infinite loop in our code otherwise our code will crash now here if we write 100 instead of 5 so we can print all the numbers till 100 if we write 10000 so we can print all the numbers till 10000 and you saw how fast we printed all the numbers in our python code so in the same way code is very fast and takes very less time to perform every operation and these numbers till 10000 we would have printed so it would have taken a lot of time now if we want to print any pattern like during our placement we get questions so here value of i is equal to stars and we will print 5 so in this case some structure would have been printed so what happened here as much as value of i so many stars were printed so here first 1 star then 2 star then 3 star then 4 star then 5 star and this multiply so it was very easy to connect the strings so multiply also works so you can multiply any number with any string so that string will be printed for us as much as time so here if it was hello so here it would have been hello once, hello twice and here it would have been hello three times so if we want to print the pattern of stars here we have to print star and instead of plus 1 we have to print minus 1 so our pattern is printed in reverse so our triangle is in reverse and is on screen so in this way our while loops work in python now we will talk about for loops for loops in python usually we have a list a structure to iterate on it to put loop on it so for loop is used basically you have an object or sequence of numbers to take the items of it like if we have defined a range from 0 to 4 so we have to print all the numbers of this range so what we will do is for i in range print i so here all the numbers which are in range will be printed so here we used the keyword for in keyword and then whatever item is written we can write item here also we can write item we wrote in keyword and then range so all the items in range are printed for us now let's say we have to print from 1 to 5 so here we have to print item plus 1 so in this way plus 1 is printed in all the items so from 1 to 5 all the numbers are printed so in this way our for loop works in python now let's talk about list in python so till now the data types which we have read string, float, integer, boolean these are all primitive data types after this comes list data type in list we can store many primitive data types so list can be called collection of items this is a complex data type like if we have to make a list so let's say we have to store our marks so we can store marks in a form of list so to make a list we use square brackets in this we store our marks first english marks then chemistry marks then physics marks so in this way we stored marks and after that if we have to print these marks then we can do print marks we run the code so all the marks are printed for us so this variable marks is a list now it's not like in list all the data types are same here if we want to store maths then we can run it so for us that will also be printed now if we want to print marks of an individual subject then how to do it we will print it by writing square brackets in front of marks so in square brackets we can print any index marks we can print any index marks let's say we want to print marks on 0th index so this is 0 index, this is 1 index and this is 2 index so 0 index marks will be printed which is 95 if we want to print 1st index then it will be 98 now usually in other languages the index is positive here also we talked about how the index is increasing 0,1,2,3,4 so in python the index can be negative also so if we wrote 1 here then we can write it as minus 1 minus 1 means in python index that start counting from back so minus 1 means our last item so we printed it so 97 is printed for us similarly if we write minus 2 then it will be 98 so minus means we are starting counting from back this comes on minus 1 this comes on minus 2 and this on minus 3 now if we print minus 4 then list index will be out of range because there is nothing happening behind this now if we don't want marks of last subject we just want marks of first two index so for that we can make a new list how can we make a new list we can write marks then we will write from which starting index to which ending index you want list so starting index will be 0 and ending index will be 2 so here ending index is not included so 0 colon 2 means 0 and 1 will be included so let's print it so for us output is 95 and 98 similarly 1 and 3 means that we are taking 1 and 2 so 1 will not be included but 0 will also not be included so in that case it will be 98 and 97 now this whole list every item of this every score we can make a loop on it which loop we will make here we will make for loop so we will write for score in marks print our score so this score will be printed for us so it will be 95 and 98 and 97 so one by one we can access all the scores of marks now marks list we have made on list also we can perform many operations like we performed operations on string similarly we will perform operations on list so first operation we will talk about is append operation append means to add something so if we have taken marks of maths we have to add marks we will write marks.append and what we will pass in it whatever new marks we have to add so we have added 99 so we have added that after that we will print our marks so in our marks now 99 at the end has been added or append apart from this we will also insert suppose we are able to add something in the end suppose we have to add something in the middle so for that we will use insert so here we will remove append insert if we have to add marks of maths in the beginning so first we have to write index for beginning index is 0 and marks will be 99 so we will run it so 99 is now in the beginning means start of the list apart from this in our list which item exists we can also check that how will we check that suppose we have to check that our number 99 exists in our list or not so for that we will print 99 in marks so what will this in keyword do it will check whether 99 exists in marks so yes it exists that's why it is printed true for us if we search here 93 so for that it would be false so we can perform this operation we get the length of marks that how many elements are there in our list what is the length so here if we print len and pass our marks in it so the length of our marks list will be printed for us means 4 is printed for us if we have to remove marks of maths and print it so for us in that case it would be 3 so till now we have iterated on marks so we can use length with the help of for loop so first we will define a variable i is equal to 0 now we will write our while loop while our i is less than length of marks till then we will keep on printing marks of i and we will update i by 1 so what happened in this with the help of while loop so our marks are printed one by one for us now if we have to empty the whole list so for that we will use a operation marks.clear with the help of clear if we print our marks after this so an empty list will be printed so what will clear do it will empty the whole list so we have read some operations on our list now we are going to talk about break and continue are two important keywords in python these keywords are also there in c++ and java so now with an example we will understand what is the meaning of these keywords first of all we will make a list in the list some students names will be stored ram, shyam, kishan radha, radhika so these are some 5 students names now our work is we have to print all these names one by one and while printing we have to take care of one thing as soon as radha name comes after that we don't have to print any name means from ram till the time radha name comes till then we have to print all the names so how will we do for that we will put a for loop for student in students we will keep on printing our students but as soon as now here we are writing if statement in for loop so this is a new use case we should see this carefully if our student's name is equal to radha's so in that case we will do break what is the meaning of this for means we have iterated all the students we have to print students every time but as soon as our student's name is radha before that we will do break break means breaking that loop and get out of it means after this loop will end so wherever we have to end the loop we use break keyword now if we run this then only ram, kishan will be printed and after that the name will not be printed now there is one more keyword continue kishan was a student of our class but his parents got transferred to another state and now he has shifted so he got his name cut from school and his name should not be printed in the list now we have to print name of everyone except kishan so here we change the condition if student is equal to kishan then in that case continue means run our loop again don't do any work of the current loop so if we run this then all the students name will be printed except kishan so in this way our continue works in python now the next structure which we are going to talk about in python is called tuple tuple is like a list but immutable means once you make tuple you can't change it like in list we were able to insert things append things so that type of addition, modify or delete operation is not there in tuple so if we have to define tuple of marks so here we write marks is equal to now we define tuple in parenthesis form like in list we used to use square brackets now we will use our parenthesis we will store our marks in marks 95 for english 98 for chemistry 97 for physics now if we have to do marks of maths or we don't want to keep 95 on 0th index we want to keep 99 so what we will do marks of 0 is equal to 99 but here we will get an error why error will come because tuple object doesn't support item assignment because we are trying to change our tuple so we can't do this so tuples are immutable now we are talking about two operations first operation is it counts which object is how many times like if we write 97 three times and we want to print and we want to count how many times 97 came so we will write marks dot count if we want to count 97 in count so we will pass 97 and 3 is printed for us now we want to see how many times 95 came so 1 is printed similarly if we want to see index of any number in tuple so we will print marks dot index now which ever number we want to see say we want to see 97 so if 97 is coming three times so first time when 97 will come its index will be printed for us so 2 is printed for us 95 is on 0, 98 on 1 and 97 on 2 first time so this is how tuple works next structure we will talk about in python is set now we have studied about sets in maths what were sets like if we want to store collection of many elements but we want to keep only unique elements not duplicates so in that case we used set similarly sets are there in python now if we want to make tuple a set so for that we will change this bracket and here we will bring curly braces so till now what we have learnt when square brackets comes then we have list when parenthesis comes then we have tuple and when curly braces comes then we have set so we can differentiate like this now one more special thing that in tuples putting parenthesis is not compulsory means if you will write person is equal to ram comma sham comma abhi so this structure will be by default a tuple if we print this so for us it will be a tuple after printing so these parenthesis are not compulsory they are optional but code should be good so that the reader knows what we have tried to print that's why we use parenthesis so here we have defined set now in set 97 is 3 times but if we print our marks so 97 will be printed only once once because unique values are stored in set second thing if we try to print marks of 0 then error will come error will come because in marks in sets index doesn't exist means which value is on which index no idea if you want to iterate on this so you can only run a loop you can't access values from index we will remove this and now we will run so for us all our marks are printed now since in sets index doesn't exist that's why it is called unordered order means fixed sequence of things so where index is there it is called ordered if index is not there in sets then it is called unordered there is another structure like this in python which is called dictionary dictionary is a very important structure in dictionary we store key value pairs like if we want to store single student's information then we will do it in tuple, set or list but with student always parent's information should come key and value when information is stored in two pairs then it is stored in dictionary like if we want to convert our key in dictionary so for that we will convert like this first we will put curly braces then we will write our key our key is english then we will put colon then we will store marks of english 95, then we will store marks of chemistry colon 98 so like this we have kept our key as subject and we have kept our value as marks if we were storing student's information then we would have made a dictionary like this first would have been student's father's name like this so like this student would have stored parent's information now if we want to access any information like we want to print marks of chemistry so here we will write marks of chemistry so in first index we used to write number now we can write key instead of number so here we have passed chemistry as index and for us marks of chemistry will be printed which is 98 now if we want to add new marks then how to add here we can write marks now after that we have to print marks of physics so first we will add marks of physics 97 now we will print our marks so here we have English here we have chemistry and here we have physics now we can change existing marks in dictionary so if we want to make marks of physics as 99 instead of 97 so what we will do marks of physics is equal to 99 and after that we will print our marks so here marks of physics will be printed in second line now let's talk about functions like we have a TV remote so by pressing different buttons of remote we can do different things like if we press plus plus button then volume will increase if we press minus minus button then volume will decrease so every button is performing different operation similarly in python code there are different parts of program every part performs an operation and if this part performs specific operation then we call it function so there are three types of functions in python first are inbuilt function second are module function and third are user defined function which is defined by user which we are writing now inbuilt function we have already read it inbuilt function means like we read int in our type conversion or we read str or we read bool these functions are our inbuilt function which already exists in python and we use them directly second type of function are module function now what are modules in java when related functions and related variables are stored in one file we name that file module in python now there are many modules in python we can use them directly and we can get our work done from their functions like example of such module is math module to use math module we have to write in our code import math now in math module there are many functions which are already written how can we print these functions dir of math so as we print dir of math similarly all these functions which are printing on screen are functions of math module now if we pick any particular function then we have picked square root now if we only need square root function then we can from math import sqrt and what does sqrt function do it returns square root of any number so if we print sqrt of 4 so in that case square root of 4 will be printed which is 2.0 similarly if we print 16 then it will be 4.0 similarly we can take functions instead of module suppose we need all functions then we can do star star means select all so in that case all functions will be available and we can use square root directly now third type of function in python is user defined function which is made by programmers now what is syntax syntax means proper way of writing so till now we were using proper keywords proper things, space that was all syntax of python now syntax of writing function is first you write definition after definition we write definition means daf here we will define our function after that we write function name so function name is a variable which we can give by our self that we want to keep function name after that we write parenthesis after parenthesis we write some parameters parameters means some function may be taking some input and on that input basis returning some output like if we convert calculator into function then calculator will take operator and will depend on what output will come so that will become calculator parameter so parameter comes after that colon comes and finally inside all lines we have to write together block of code of function we can write that so suppose we want to write a function what this function does it prints sum of two numbers so how to write function first we will write def we will write function name print sum now after print sum we will write parenthesis, inside parenthesis we will take two numbers first will be first second will be second then we will write colon and second will be parameters in which we will pass some number and here we will print first plus second and from here we will call call any function means execute it run it so to call print sum we will write print sum, parenthesis inside that we will pass parameters whatever parameters we want to give in first we want to give one and this print sum will print sum for us so let's run it so sum of one and two is directly printed which is three now suppose we want to keep value of by default parameter like second number if nothing is passed in that then second will become four so suppose we didn't pass anything in place of two, only one so in that case by default second will be four and sum of one and four will be five so in this way our functions work in python so i hope all the concepts of python we have discussed today now after this if we want to go in programming, want to study for placement want to study for competitive programming so we can learn oops in python or if we want to go to machine learning or if we want to go to data science or artificial intelligence so we can study related modules like file handling in python and if we want to go to development so we can learn framework named django i hope your coming journey of python will be good apart from this if you want video related to python or machine learning or related to AI so you can comment below that's all for today till then keep learning and keep practicing Thank you"
+}

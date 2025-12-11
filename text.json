@@ -1,0 +1,53 @@
+{'text': ' Hello everyone, I am your Shraddha Didi and today we have brought a brand new Python course for you After doing this course, you can learn basic installation and all the basics of Python', 'segments': [
+        {'id': 0, 'seek': 0, 'start': 0.0, 'end': 6.0, 'text': ' Hello everyone, I am your Shraddha Didi and today we have brought a brand new Python course for you', 'tokens': [
+                50364,
+                2425,
+                1518,
+                11,
+                286,
+                669,
+                428,
+                1160,
+                6206,
+                67,
+                1641,
+                2589,
+                72,
+                293,
+                965,
+                321,
+                362,
+                3038,
+                257,
+                3360,
+                777,
+                15329,
+                1164,
+                337,
+                291,
+                50664
+            ], 'temperature': 0.0, 'avg_logprob': -0.6521831936306424, 'compression_ratio': 1.3676470588235294, 'no_speech_prob': 0.3978513777256012
+        },
+        {'id': 1, 'seek': 0, 'start': 6.0, 'end': 12.0, 'text': ' After doing this course, you can learn basic installation and all the basics of Python', 'tokens': [
+                50664,
+                2381,
+                884,
+                341,
+                1164,
+                11,
+                291,
+                393,
+                1466,
+                3875,
+                13260,
+                293,
+                439,
+                264,
+                14688,
+                295,
+                15329,
+                50964
+            ], 'temperature': 0.0, 'avg_logprob': -0.6521831936306424, 'compression_ratio': 1.3676470588235294, 'no_speech_prob': 0.3978513777256012
+        }
+    ], 'language': 'hi'
+}
