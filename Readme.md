@@ -6,6 +6,23 @@ The system converts a video into audio, transcribes it into text, splits the tex
 
 ---
 
+## 🎬 Source Video Used
+
+This RAG model was built and tested using the following YouTube video:
+
+🔗 **Video Link:**  
+https://youtu.be/vLqTf2b6GZw
+
+The video was:
+- Converted into audio (MP3)
+- Transcribed into text
+- Split into semantic chunks
+- Embedded into a vector database
+
+All question answering is grounded **only on the content of this video**.
+
+> ⚠️ Note: The pipeline is generic and can be applied to any YouTube video by replacing the source link.
+
 ## 🔍 What This Project Does
 
 ✔ Converts YouTube videos into audio  
